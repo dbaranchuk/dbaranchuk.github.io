@@ -228,7 +228,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: []
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -244,7 +244,9 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - _pages
+  - _news
+  - _projects
   - purgecss.config.js
   - README.md
   - readme_preview/
