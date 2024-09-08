@@ -228,7 +228,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: []
+include: [_pages]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -244,7 +244,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages
   - _news
   - _projects
   - purgecss.config.js
