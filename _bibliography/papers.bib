@@ -6,12 +6,13 @@
   author={Dmitry Baranchuk and Andrey Voynov and Ivan Rubachev and Valentin Khrulkov and Artem Babenko},
   booktitle={International Conference on Learning Representations},
   year={2022},
+  month = {May},
   url={https://openreview.net/forum?id=SlxSY2UZQT}
 }
 
 @InProceedings{pmlr-v108-fortuin20a,
   title = 	 {GP-VAE: Deep Probabilistic Time Series Imputation},
-  author =       {Fortuin, Vincent and Baranchuk, Dmitry and Raetsch, Gunnar and Mandt, Stephan},
+  author =       {Fortuin*, Vincent and Baranchuk*, Dmitry and Raetsch, Gunnar and Mandt, Stephan},
   booktitle = 	 {Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics},
   pages = 	 {1651--1661},
   year = 	 {2020},
@@ -50,11 +51,11 @@
 
 @inproceedings{borzunov-etal-2023-petals,
     title = "Petals: Collaborative Inference and Fine-tuning of Large Models",
-    author = "Borzunov, Alexander  and
-      Baranchuk, Dmitry  and
-      Dettmers, Tim  and
-      Riabinin, Maksim  and
-      Belkada, Younes  and
+    author = "Borzunov^*, Alexander  and
+      Baranchuk*, Dmitry  and
+      Dettmers*, Tim  and
+      Riabinin*, Maksim  and
+      Belkada*, Younes  and
       Chumachenko, Artem  and
       Samygin, Pavel  and
       Raffel, Colin",
@@ -95,13 +96,15 @@
  title = {Distributed Inference and Fine-tuning of Large Language Models Over The Internet},
  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/28bf1419b9a1f908c15f6195f58cb865-Paper-Conference.pdf},
  volume = {36},
- year = {2023}
+ year = {2023},
+ month = {Dec}
 }
 
 @misc{baranchuk2020similaritygraphsconstructeddeep,
       title={Towards Similarity Graphs Constructed by Deep Reinforcement Learning}, 
       author={Dmitry Baranchuk and Artem Babenko},
-      year={2020},
+      year={2019},
+      month={Nov},
       eprint={1911.12122},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
@@ -130,7 +133,8 @@
   title={Towards Real-time Text-driven Image Manipulation with Unconditional Diffusion Models},
   author={Starodubcev, Nikita and Baranchuk, Dmitry and Khrulkov, Valentin and Babenko, Artem},
   journal={arXiv preprint arXiv:2304.04344},
-  year={2023}
+  year={2023},
+  month={Apr}
 }
 
 @inproceedings{
@@ -139,6 +143,7 @@
   author={Liudmila Prokhorenkova and Dmitry Baranchuk and Nikolay Bogachev and Yury Demidovich and Alexander Kolpakov},
   booktitle={International Conference on Learning Representations},
   year={2022},
+  month={May},
   url={https://openreview.net/forum?id=USIgIY6TNDe}
 }
 
@@ -148,13 +153,15 @@
   author={Dmitry Baranchuk and Vladimir Aliev and Artem Babenko},
   booktitle={ICML Workshop on Invertible Neural Networks, Normalizing Flows, and Explicit Likelihood Models},
   year={2021},
+  month={Jul},
   url={https://openreview.net/forum?id=fEPhiuZS9TV}
 }
 
 @misc{egiazarian2024accuratecompressiontexttoimagediffusion,
       title={Accurate Compression of Text-to-Image Diffusion Models via Vector Quantization}, 
-      author={Vage Egiazarian and Denis Kuznedelev and Anton Voronov and Ruslan Svirschevski and Michael Goin and Daniil Pavlov and Dan Alistarh and Dmitry Baranchuk},
+      author={Vage Egiazarian* and Denis Kuznedelev* and Anton Voronov* and Ruslan Svirschevski and Michael Goin and Daniil Pavlov and Dan Alistarh and Dmitry Baranchuk},
       year={2024},
+      month={Aug},
       eprint={2409.00492},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
@@ -165,6 +172,7 @@
       title={Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps}, 
       author={Nikita Starodubcev and Mikhail Khoroshikh and Artem Babenko and Dmitry Baranchuk},
       year={2024},
+      month={Jun},
       eprint={2406.14539},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
@@ -176,6 +184,24 @@
   title={Discovering Weight Initializers with Meta Learning},
   author={Dmitry Baranchuk and Artem Babenko},
   booktitle={8th ICML Workshop on Automated Machine Learning (AutoML) },
+  month={Jul},
   year={2021},
   url={https://openreview.net/forum?id=AwT_WWtEUj}
+}
+
+
+@InProceedings{pmlr-v176-simhadri22a,
+  title = 	 {Results of the NeurIPS{’}21 Challenge on Billion-Scale Approximate Nearest Neighbor Search},
+  author =       {Simhadri, Harsha Vardhan and Williams, George and Aum\"uller, Martin and Douze, Matthijs and Babenko, Artem and Baranchuk, Dmitry and Chen, Qi and Hosseini, Lucas and Krishnaswamny, Ravishankar and Srinivasa, Gopal and Subramanya, Suhas Jayaram and Wang, Jingdong},
+  booktitle = 	 {Proceedings of the NeurIPS 2021 Competitions and Demonstrations Track},
+  pages = 	 {177--189},
+  year = 	 {2022},
+  editor = 	 {Kiela, Douwe and Ciccone, Marco and Caputo, Barbara},
+  volume = 	 {176},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--14 Dec},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v176/simhadri22a/simhadri22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v176/simhadri22a.html},
+  abstract = 	 {Despite the broad range of algorithms for Approximate Nearest Neighbor Search, most empirical evaluations of algorithms have focused on smaller datasets, typically of 1 million points&nbsp;\citep{Benchmark}. However, deploying recent advances in embedding based techniques for search, recommendation and ranking at scale require ANNS indices at billion, trillion or larger scale. Barring a few recent papers, there is limited consensus on which algorithms are effective at this scale vis-à-vis their hardware cost. This competition\footnote{\url{https://big-ann-benchmarks.com}} compares ANNS algorithms at billion-scale by hardware cost, accuracy and performance. We set up an open source evaluation framework\footnote{\url{https://github.com/harsha-simhadri/big-ann-benchmarks/}}% and leaderboards for both standardized and specialized hardware. The competition involves three tracks. The standard hardware track T1 evaluates algorithms on an Azure VM with limited DRAM, often the bottleneck in serving billion-scale indices, where the embedding data can be hundreds of GigaBytes in size. It uses FAISS&nbsp;\citep{Faiss17} as the baseline. The standard hardware track T2 additional allows inexpensive SSDs in addition to the limited DRAM and uses DiskANN&nbsp;\citep{DiskANN19} as the baseline. The specialized hardware track T3 allows any hardware configuration, and again uses FAISS as the baseline. We compiled six diverse billion-scale datasets, four newly released for this competition, that span a variety of modalities, data types, dimensions, deep learning models, distance functions and sources. The outcome of the competition was ranked leaderboards of algorithms in each track based on recall at a query throughput threshold. Additionally, for track T3, separate leaderboards were created based on recall as well as cost-normalized and power-normalized query throughput.}
 }

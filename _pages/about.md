@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Dmitry Baranchuk
+title: About
 permalink: /
 subtitle:
 
