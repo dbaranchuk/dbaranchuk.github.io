@@ -1,14 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
-
-repo_description_lines_max: 2
+  - dbaranchuk
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - yandex-research/ddpm-segmentation
+  - bigscience-workshop/petals
+  - dbaranchuk/ivf-hnsw
+  - ratschlab/GP-VAE
+  - dbaranchuk/memory-efficient-maml
+  - yandex-research/invertible-cd
+  - yandex-research/adaptive-diffusion
+  - yandex-research/vqdm
+  - dbaranchuk/nns-meets-deep-rl
+  - yandex-research/distill-nf
+  - yandex-research/learnable-init
