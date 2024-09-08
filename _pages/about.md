@@ -2,7 +2,7 @@
 layout: about
 title: Dmitry Baranchuk
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
