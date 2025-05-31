@@ -59,9 +59,12 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Papers</a>
       </h2>
+      <h4>Generative Modeling</h4>
       {% include selected_papers.liquid %}
+      <h4>Vector Search</h4>
+      {% include selected_knn_papers.liquid %}
     {% endif %}
 
     <!-- Social -->
