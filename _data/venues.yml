@@ -1,0 +1,23 @@
+"NeurIPS":
+  color: "#00369f"
+
+"ICLR":
+  color: "#730071"
+
+"ICML":
+  color: "#267856"
+
+"AISTATS":
+  color: "#c29867"
+
+"CVPR":
+  color: "#cb334d"
+
+"ECCV":
+  color: "#41658a"
+
+"ICCV":
+  color: "#41658a"
+
+"arXiv":
+  color: "#ff8652"
