@@ -1,21 +1,90 @@
-github_users:
-  - dbaranchuk
+# Cards on /repositories/ are rendered locally by _includes/repository/repo.liquid.
+# No external service is involved, so the page cannot break when a third-party
+# card renderer goes down. Descriptions are the repos' own GitHub descriptions;
+# star counts are a snapshot taken 2026-09-01 and can be refreshed by hand.
 
 github_repos:
-  - yandex-research/switti
-  - yandex-research/swd
-  - yandex-research/madrive
-  - yandex-research/invertible-cd
-  - yandex-research/vqdm
-  - yandex-research/adaptive-diffusion
-  - yandex-research/tab-ddpm
-  - yandex-research/ddpm-segmentation
-  - bigscience-workshop/petals
-  - harsha-simhadri/big-ann-benchmarks
-  - dbaranchuk/ivf-hnsw
-  - dbaranchuk/learning-to-route
-  - dbaranchuk/nns-meets-deep-rl
-  - ratschlab/GP-VAE
-  - dbaranchuk/memory-efficient-maml
-  - yandex-research/distill-nf
-  - yandex-research/learnable-init
+  - name: yandex-research/switti
+    description: "(CVPR 2025) Switti: Designing Scale-Wise Transformers for Text-to-Image Synthesis"
+    language: Jupyter Notebook
+    stars: 205
+
+  - name: yandex-research/swd
+    description: "[ICLR'2026] Scale-wise Distillation of Diffusion Models"
+    language: Python
+    stars: 124
+
+  - name: yandex-research/ar-classifier
+    description: '[ECCV 2026] Official code of "Revisiting Autoregressive Models for Generative Image Classification"'
+    language: Python
+    stars: 14
+
+  - name: yandex-research/invertible-cd
+    description: "[NeurIPS'2024] Invertible Consistency Distillation for Text-Guided Image Editing in Around 7 Steps"
+    language: Python
+    stars: 101
+
+  - name: yandex-research/vqdm
+    description: Official repo for VQDM, a paper on compressing text-to-image diffusion models with vector quantization
+    language: Python
+    stars: 33
+
+  - name: yandex-research/adaptive-diffusion
+    description: "[CVPR'2024] Adaptive Teacher-Student Collaboration for Text-Conditional Diffusion Models"
+    language: Python
+    stars: 33
+
+  - name: yandex-research/tab-ddpm
+    description: '[ICML 2023] The official implementation of the paper "TabDDPM: Modelling Tabular Data with Diffusion Models"'
+    language: Python
+    stars: 563
+
+  - name: yandex-research/ddpm-segmentation
+    description: Label-Efficient Semantic Segmentation with Diffusion Models (ICLR'2022)
+    language: Python
+    stars: 718
+
+  - name: bigscience-workshop/petals
+    description: Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading
+    language: Python
+    stars: 10531
+
+  - name: harsha-simhadri/big-ann-benchmarks
+    description: Framework for evaluating ANNS algorithms on billion scale datasets.
+    language: Jupyter Notebook
+    stars: 448
+
+  - name: dbaranchuk/ivf-hnsw
+    description: "Code for ECCV2018 paper: Revisiting the Inverted Indices for Billion-Scale Approximate Nearest Neighbors"
+    language: C++
+    stars: 218
+
+  - name: dbaranchuk/learning-to-route
+    description: "Code for ICML2019 paper: Learning to Route in Similarity Graphs"
+    language: Jupyter Notebook
+    stars: 62
+
+  - name: dbaranchuk/nns-meets-deep-rl
+    description: "Code for paper: Towards Similarity Graphs Constructed by Deep Reinforcement Learning"
+    language: C
+    stars: 21
+
+  - name: ratschlab/GP-VAE
+    description: TensorFlow implementation for the GP-VAE model described in https://arxiv.org/abs/1907.04155
+    language: Python
+    stars: 144
+
+  - name: dbaranchuk/memory-efficient-maml
+    description: Memory efficient MAML using gradient checkpointing
+    language: Jupyter Notebook
+    stars: 86
+
+  - name: yandex-research/distill-nf
+    description: "Code for the paper: Distilling the Knowledge from Conditional Normalizing Flows"
+    language: Jupyter Notebook
+    stars: 9
+
+  - name: yandex-research/learnable-init
+    description: "Code for the paper: Discovering Weight Initializers with Meta-Learning"
+    language: Jupyter Notebook
+    stars: 5
