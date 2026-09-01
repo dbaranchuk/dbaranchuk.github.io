@@ -2,14 +2,20 @@ github_users:
   - dbaranchuk
 
 github_repos:
+  - yandex-research/switti
+  - yandex-research/swd
+  - yandex-research/madrive
+  - yandex-research/invertible-cd
+  - yandex-research/vqdm
+  - yandex-research/adaptive-diffusion
+  - yandex-research/tab-ddpm
   - yandex-research/ddpm-segmentation
   - bigscience-workshop/petals
+  - harsha-simhadri/big-ann-benchmarks
   - dbaranchuk/ivf-hnsw
+  - dbaranchuk/learning-to-route
+  - dbaranchuk/nns-meets-deep-rl
   - ratschlab/GP-VAE
   - dbaranchuk/memory-efficient-maml
-  - yandex-research/invertible-cd
-  - yandex-research/adaptive-diffusion
-  - yandex-research/vqdm
-  - dbaranchuk/nns-meets-deep-rl
   - yandex-research/distill-nf
   - yandex-research/learnable-init
